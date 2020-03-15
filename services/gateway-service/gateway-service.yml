@@ -16,3 +16,9 @@ logging:
   level:
     ROOT: INFO
     za.co.sfh.gateway: DEBUG
+
+application:
+  props:
+    test1: Test 1 val
+    test2: test 2 value
+    test3: Test 3 value
