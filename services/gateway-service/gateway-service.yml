@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+management:
+  endpoints:
+    web:
+      base-path: /management
+      exposure:
+        include: ["configprops", "env", "health", "info", "logfile", "loggers", "threaddump"]
+
+spring:
+  application:
+    name: gateway-service
