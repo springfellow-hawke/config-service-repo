@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8084
 
 management:
   endpoints:
@@ -10,9 +10,9 @@ management:
 
 spring:
   application:
-    name: auth-service
+    name: notification-service
 
 logging:
   level:
     ROOT: INFO
-    za.co.sfh.auth: DEBUG
+    za.co.sfh.inventory: INFO

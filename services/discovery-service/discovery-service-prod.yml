@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8761
 
 management:
   endpoints:
@@ -10,9 +10,9 @@ management:
 
 spring:
   application:
-    name: auth-service
+    name: discovery-service
 
 logging:
   level:
     ROOT: INFO
-    za.co.sfh.auth: DEBUG
+    za.co.sfh.discovery: INFO

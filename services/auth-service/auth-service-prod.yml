@@ -15,4 +15,4 @@ spring:
 logging:
   level:
     ROOT: INFO
-    za.co.sfh.auth: DEBUG
+    za.co.sfh.auth: INFO
